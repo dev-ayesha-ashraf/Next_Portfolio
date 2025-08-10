@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { initSmoothScroll } from "@/lib/lenis";
 import "./globals.css";
+import Navbar from "@/Components/Navbar";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
@@ -11,7 +12,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="en">
-      <body className="bg-gray-900 text-white">{children}</body>
+      <body className="bg-gray-900 text-white">
+        <Navbar />
+        <main>{children}</main>
+      </body>
     </html>
   );
 }
