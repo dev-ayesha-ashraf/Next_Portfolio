@@ -12,7 +12,7 @@ export default function WorkProcess() {
   ];
 
   return (
-    <section className="relative py-24 bg-gradient-to-br from-pink-50 via-white to-purple-50 overflow-hidden">
+    <section id="work" className="relative py-24 bg-gradient-to-br from-pink-50 via-white to-purple-50 overflow-hidden">
       <div className="absolute -top-20 -left-20 w-72 h-72 bg-purple-200/30 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-200/30 rounded-full blur-3xl animate-pulse delay-500"></div>
 
@@ -56,7 +56,7 @@ export default function WorkProcess() {
               >
                 {step.icon}
               </motion.div>
-              
+
               <h3 className="font-bold text-xl mb-3 text-purple-700">{step.title}</h3>
               <p className="text-gray-600 leading-relaxed">{step.text}</p>
               <div className="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition duration-500 bg-gradient-to-br from-purple-500/5 to-pink-500/5 blur-xl"></div>

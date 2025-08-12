@@ -7,7 +7,7 @@ import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section className="relative py-16 bg-gradient-to-br from-pink-50 via-white to-purple-50 overflow-hidden">
+    <section id="about" className="relative py-16 bg-gradient-to-br from-pink-50 via-white to-purple-50 overflow-hidden">
       <div className="absolute -top-10 -left-10 w-60 h-60 bg-purple-200/30 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-72 h-72 bg-pink-200/30 rounded-full blur-3xl animate-pulse delay-700"></div>
 

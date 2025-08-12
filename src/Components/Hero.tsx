@@ -6,7 +6,7 @@ import profileImg from "../../public/pakata-goh-RDolnHtjVCY-unsplash.jpg";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-pink-50 via-white to-purple-50 py-24">
+    <section id="hero" className="relative overflow-hidden bg-gradient-to-br from-pink-50 via-white to-purple-50 py-24">
       <div className="absolute -top-20 -left-20 w-80 h-80 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-40 animate-[float_8s_ease-in-out_infinite]"></div>
       <div className="absolute top-1/2 -right-32 w-[30rem] h-[30rem] bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-[float_10s_ease-in-out_infinite]"></div>
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[50rem] h-[50rem] bg-purple-100 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-[pulse_6s_ease-in-out_infinite]"></div>
